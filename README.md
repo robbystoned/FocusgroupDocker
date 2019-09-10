@@ -1,6 +1,6 @@
 # FocusgroupDocker
 
-sudo docker pull openjdk:8-jdk-alpinemys
+sudo docker pull openjdk:8-jdk-alpine
 
 sudo docker network create mynetwork
 
