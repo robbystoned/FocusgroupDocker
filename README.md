@@ -22,6 +22,7 @@ cd /home/docker
 mkdir workspace
 cd workspace
 git clone https://github.com/robbystoned/FocusgroupDocker.git
+cd FocusgroepDocker
 cd DockerBackend
 mvn eclipse:eclipse
 cd ..
@@ -93,8 +94,8 @@ the output of the command should look like this. This will indicate that the con
 
 ```
 CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                  NAMES
-56aeabbfdab2        test/focusgroupbackend   "sh -c 'java -Djava.…"   26 seconds ago      Up 5 seconds        0.0.0.0:81->8080/tcp   backend
-d811c0f6f6d4        test/focusgroupwebapp    "sh -c 'java -Djava.…"   2 minutes ago       Up About a minute   0.0.0.0:80->8080/tcp   webapp 
+56aeabbfdab2        test/focusgroupbackend   "sh -c 'java -Djava.â€¦"   26 seconds ago      Up 5 seconds        0.0.0.0:81->8080/tcp   backend
+d811c0f6f6d4        test/focusgroupwebapp    "sh -c 'java -Djava.â€¦"   2 minutes ago       Up About a minute   0.0.0.0:80->8080/tcp   webapp 
 
 ```
 
