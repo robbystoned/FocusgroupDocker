@@ -111,7 +111,9 @@ With the portmapping the containers can be reached from the host system (you ubu
 - webapp
 [http://localhost/](http://localhost/)
 
-#Adding a database
+
+
+# Adding a database
 
 Now that we have setup a small demo environment, now lets add a database to the environment. For this one we will not give the full solution.
 
